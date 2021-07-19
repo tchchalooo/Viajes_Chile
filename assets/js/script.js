@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // Add smooth scrolling to all links
+  // Agregar smooth scroll a todos los links
   $("a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -18,11 +18,13 @@ $(document).ready(function(){
   });
 });
 
-var myCarousel = document.querySelector('#carouselExampleIndicators')
+// se quita la opcion de que el carousel se detenga al posicionar el mouse
+var myCarousel = document.querySelector('#carousel-viajes-chile')
 var carousel = new bootstrap.Carousel(myCarousel, {
   pause: false
 });
 
+//tooltips agregados en cada icono del footer 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)

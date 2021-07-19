@@ -1,37 +1,46 @@
+/*se cambia el texto por raleway, el color de la fuente por blanco y el fondo negro*/
 body{
   font-family: 'Raleway', sans-serif;
   color: #FFFFFF;
   background-color: #000000;
 }
+/* padding para la version movil mas el color de fondo*/
 nav{
   background-color: #17A3B8;
   padding-left: 30px;
   padding-right: 30px;
 }
+/*se cambia el color de los links para que se ajuste a la maqueta*/
 .nav-link{
   color: #ffffff;
 }
+/* se cambia el color de la hamburguesa por un color blanco solido*/
 .navbar-toggler{
   border: 1px solid #ffffff
 }
+/*Color de la line horizontal*/
 hr{
   color: #17A3B8;
   opacity: 1;
 }
+/*Tamaño maximo de la imagen el las tarjetas*/
 .card-img-top{
   max-height: 179px;
 }
+/*tamaño del formulario*/
 .typeform-size{
   width: 100%;
   height: 200px;
 }
+/*color del footer*/
 footer{
   background-color: #17A3B8;
 }
+/*como los iconos son links a las paginas se restaura su color blanco para ajustarse a la maqueta*/
 .icon-color{
   color: #ffffff;
 }
-
+/*cambio en paddings y tamaños para pantallas mas grandes*/
 @media (min-width: 768px) {
   nav{
     padding-left: 100px;
