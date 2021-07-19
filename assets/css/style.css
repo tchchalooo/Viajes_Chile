@@ -6,7 +6,7 @@ body{
 }
 /* padding para la version movil mas el color de fondo*/
 nav{
-  background-color: #17A3B8;
+  background-color: transparent;
   padding-left: 30px;
   padding-right: 30px;
 }
