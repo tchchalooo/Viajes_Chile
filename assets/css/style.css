@@ -5,16 +5,9 @@ body{
 }
 nav{
   background-color: #17A3B8;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-/*.navbar-abs {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
-  }*/
 .nav-link{
   color: #ffffff;
 }
@@ -28,9 +21,23 @@ hr{
 .card-img-top{
   max-height: 179px;
 }
+.typeform-size{
+  width: 100%;
+  height: 200px;
+}
 footer{
   background-color: #17A3B8;
 }
 .icon-color{
   color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  nav{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .typeform-size{
+    height: 500px;
+  }
 }
