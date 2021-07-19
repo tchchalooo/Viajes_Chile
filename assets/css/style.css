@@ -1,0 +1,36 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+nav{
+  background-color: #17A3B8;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/*.navbar-abs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+  }*/
+.nav-link{
+  color: #ffffff;
+}
+.navbar-toggler{
+  border: 1px solid #ffffff
+}
+hr{
+  color: #17A3B8;
+  opacity: 1;
+}
+.card-img-top{
+  max-height: 179px;
+}
+footer{
+  background-color: #17A3B8;
+}
+.icon-color{
+  color: #ffffff;
+}
